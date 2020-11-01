@@ -30,7 +30,7 @@ body {
 	margin: 0 auto;
 }
 
-#area-principal {
+main {
 	width: 720px;
 	margin: 96px auto 10px;
 }
@@ -40,13 +40,13 @@ body {
 	margin: auto 0;
 }
 
-#menu {
+nav {
 	display: flex;
 	align-items: center;
   margin-left: auto;
 }
 
-#postagem {
+article {
 	margin-bottom: 96px;
 }
 
