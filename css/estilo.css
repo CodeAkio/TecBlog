@@ -6,15 +6,15 @@
 
 body {
 	font-size: 16px;
-	font-family: BlinkMacSystemFont, "Open Sans", "Helvetica Neue", sans-serif;
+	font-family: Source Sans Pro,sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	background: #f3f3f3;
+	background: #F7F7F8;
 }
 
 #navegacao {
 	background: #fff;
-	border-bottom: 1px solid #d8d8d8;
+	border-bottom: 1px solid #DBDBDC;
 	height: 64px;
 	position: fixed;
 	width: 100%;
@@ -45,10 +45,7 @@ body {
 }
 
 #postagem {
-	background: #fff;
-	padding: 16px;
-	margin-bottom: 24px;
-	border-radius: 2px;
+	margin-bottom: 96px;
 }
 
 h2 {
@@ -94,11 +91,11 @@ a:active {
 
 .data-postagem {
 	font-size: 14px;
-	border-bottom: 1px solid #f4f4f4;
+	border-bottom: 1px solid rgba(41, 41, 41, .1);;
 	display: block;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	color: rgba(41, 41, 41, .8);
+	color: rgba(41, 41, 41, .6);
 }
 
 .img-postagem{
@@ -115,9 +112,9 @@ a:active {
 }
 
 p {
-	font-size: 21px;
-	line-height: 32px;
-	font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 34px;
 	word-break: break-word;
-	color: rgba(41, 41, 41, 1);
+	letter-spacing: .4px;
+	color: #0E0E0F;
 }
